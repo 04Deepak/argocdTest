@@ -2,7 +2,7 @@ apiVersion: v1
 kind: Service
 metadata:
   name: todo-frontend-svc
-  namespace: todo
+  namespace: default
 spec:
   selector:
     app: todo-frontend
@@ -24,4 +24,5 @@ spec:
 #   ports:
 #     - port: 80
 #       targetPort: 80
+
 
